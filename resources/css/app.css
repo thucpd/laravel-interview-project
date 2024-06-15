@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.is-invalid {
+    color: red;
+}
+
+.is-valid {
+    display: none;
+}
+
+input.disabled {
+    background-color: #c5c9cf;
+}
+
+td.disabled {
+    background-color: #c5c9cf;
+}
